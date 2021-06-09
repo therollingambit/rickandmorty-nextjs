@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.cards {
+    @apply grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-4 mt-8;
+}
+
+@layer base {
+    body {
+      @apply bg-[#3b4252] text-gray-900
+    }
+  }
